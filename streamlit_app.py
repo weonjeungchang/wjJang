@@ -8,12 +8,13 @@ st.subheader("📄 [장원증] 소프트웨어 학사, 경제학(인공지능경
 tabPage01, tabPage02, tabPage03, tabPage04, tabPage05 = st.tabs(["인공지능", "분석/설계/기획", "프로젝트(개발)", "학력/이력/자격", "개인프로젝트"])
 
 with tabPage01:
-    contents_text = """
-    """
-    # st.text_area("FinancialDataSystem : OCR기반 문서 데이터화", "FDS : OCR", height=100, disabled=False)
-    contents_text = """
-    """
-    # st.text_area("FinancialDataSystem : 신탁계약 약관 챗봇", "FDS : 신탁계약 약관 챗봇", height=100, disabled=False)
+    # st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇")
+    # contents_text = """"""
+    # st.markdown(contents_text)
+    
+    st.success("📌 FinancialDataSystem : OCR기반 문서 데이터화 :orange[진행중]")
+    contents_text = """Python PyPDF2 fitz(PyMuPDF) ollama llama3.1:8B streamlit"""
+    st.markdown(contents_text)
     
     st.success("📌 FnDataLab : 퇴직연금가이드포털(B2C) :orange")
     contents_text = """PDF/Excel파일을 읽어들여 : fitz(PyMuPDF), pandas, openpyxl  
