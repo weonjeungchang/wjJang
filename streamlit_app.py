@@ -121,6 +121,7 @@ with tabPage03:
     st.write("◽ 2023.12 ~ 2024.05 | FnDataLab - 국민연금 주거래은행 프로젝트 | :blue[spotfire(BI), Oracle, Pro*C, Nexacro, proframe]")
     st.write("◽ 2023.02 ~ 2023.12 | FnDataLab - 디폴트옵션 분석 | :blue[Python, Shell, Oracle, Pro*C]")
     st.write("◽ 2023.02 ~ 2023.12 | FnGuide - PFGuide 위탁펀드평가시스템 | :blue[Oracle, Pro*C, Python, R, Shell, spotfire]")
+    st.write("◽ 2023.02 ~ 2023.12 | FnGuide - PFGuide 대체자산분석시스템 | :blue[Oracle, Pro*C, R, Shell]")
     st.write("◽ 2015.09 ~ 2016.03 | 신한아이타스 - 차세대 프로젝트")
     st.write("◽ 2015.05 ~ 2015.07 | 신한아이타스 - 트레이딩 지원 시스템")
     st.write("◽ 2014.10 ~ 2015.02 | 국민건강보험공단 - 통합금여시스템 (의료조사/급여, 이의신청)")
@@ -136,11 +137,11 @@ with tabPage03:
     st.write("◽ 2008.08 ~ 2009.01 | 한국투자증권 - CMA 소액결제 전문조립")
 
     st.info("📌 비금융권 프로젝트")
-    st.write("◽ 2015.07 ~ 2015.08 | S oil - PRM (파트너쉽관리시스템)")
-    st.write("◽ 2015.02 ~ 2015.05 | SK Telecom - 빌링시스템 (부가서비스 요금청구)")
-    st.write("◽ 2014.05 ~ 2014.09 | 한국스마트카드 - 통합단말,모바일 시외버스 발권시스템")
-    st.write("◽ 2007.08 ~ 2008.07 | TCO Solution - IT자산관리/보안시스템/헬프데스크 SM")
-    st.write("◽ 2004.08 ~ 2005.07 | LG Telecom - 영업관리 및 개통시스템 SM")
+    st.write("◽ 2015.07 ~ 2015.08 | S oil - PRM (파트너쉽관리시스템) | :blue[Xplatform]")
+    st.write("◽ 2015.02 ~ 2015.05 | SK Telecom - 빌링시스템 (부가서비스 요금청구) | :blue[Pro*C]")
+    st.write("◽ 2014.05 ~ 2014.09 | 한국스마트카드 - 통합단말,모바일 시외버스 발권시스템 | :blue[Pro*C]")
+    st.write("◽ 2007.08 ~ 2008.07 | TCO Solution - IT자산관리/보안시스템/헬프데스크 SM | :blue[기술지원, Web]")
+    st.write("◽ 2004.08 ~ 2005.07 | LG Telecom - 영업관리 및 개통시스템 SM | :blue[MFC, C++]")
 
 with tabPage04:
     st.error("📌 근무 이력")
