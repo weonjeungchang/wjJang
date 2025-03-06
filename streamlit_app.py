@@ -10,8 +10,8 @@ tabPage01, tabPage02, tabPage03, tabPage04, tabPage05 = st.tabs(["인공지능",
 
 with tabPage01:
     st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇 :orange[진행중]")
-    contents_text = """
-    """
+    contents_text = """도매인 특화 답변 생성 연구 : SFT(supervied fine tuning)  
+    :red[LoRA] vs :red[QLoRA] 구현/비교/분석"""
     st.markdown(contents_text)
 
     st.success("📌 FinancialDataSystem : OCR기반 문서 데이터화 :orange[진행중]")
