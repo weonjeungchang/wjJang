@@ -14,7 +14,7 @@ with tabPage01:
     # """
     # st.markdown(contents_text)
 
-    st.success("📌 FnDataLab : FinancialDataSystem : OCR기반 문서 데이터화 :orange[진행중]")
+    st.success("📌 FinancialDataSystem : OCR기반 문서 데이터화 :orange[진행중]")
     contents_text = """이미지 파일을 :red[OCR(tesseract)] 기법으로 문자화하여  
     검수(승인결재) 단계를 걸쳐 :red[ollama]를 이용하여 :red[Llama3.1:8B] 모델로 정재하여  
     특정 데이터를 선별하여 기존 데이터베이스(Oracle)에 insert하는 로직  
