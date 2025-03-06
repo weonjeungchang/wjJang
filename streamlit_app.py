@@ -186,6 +186,7 @@ with tabPage04:
 
 with tabPage05:
     st.warning("📌 퇴직연금 사전지정운용제도(디폴트옵션) 자산배분 챗봇")
+    st.warning("📌 [쉬마려] 안드로이드 화장실 검색 어플")
 
     st.warning("📌 자산배분-성과요인분해 cycling")
 
