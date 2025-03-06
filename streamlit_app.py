@@ -150,7 +150,7 @@ with tabPage03:
 
 with tabPage04:
     st.error("📌 근무 이력")
-    st.write("◽ 現 파이넨셜데이터시스템 커스터디부문 SI사업부 수석 (인공지능 담당)")
+    st.write("◽ 現 파이넨셜데이터시스템 커스터디부문 SI사업부 수석 (:red[인공지]능 담당)")
     st.write("◽ 現 :blue[이그지표데브랩] CEO")
     # st.write("◽ 그린다에이아이:rainbow[startup] :red[CTO] 사외이사")
     st.write("◽ 에프앤데이터랩 금융사업본부 수석")
