@@ -9,7 +9,7 @@ st.caption(":rainbow[ 📜 This page was developed with Python Streamlit.]")
 tabPage01, tabPage02, tabPage03, tabPage04, tabPage05 = st.tabs(["인공지능", "분석/설계/기획", "프로젝트(개발)", "학력/이력/자격", "개인프로젝트"])
 
 with tabPage01:
-    # st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇")
+    # st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇 :orange[진행중]")
     # contents_text = """
     # """
     # st.markdown(contents_text)
