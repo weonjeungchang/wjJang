@@ -140,8 +140,8 @@ with tabPage03:
     st.write("◽ 2008.08 ~ 2009.01 | 한국투자증권 - CMA 소액결제 전문조립")
 
     st.info("📌 비금융권 프로젝트")
-    st.write("◽ 2016.03 ~ 2017.08 | FnPricing - 메타시스템 | :blue[Xplatform, JAVA, Oracle Package, PL-SQL)]")
-    st.write("◽ 2016.03 ~ 2017.08 | FnPricing - 인사시스템 | :blue[Nexacro, JAVA, Oracle]")
+    st.write("◽ 2017.08 ~ 2017.09 | FnPricing - 메타시스템 | :blue[Nexacro, JAVA, Oracle]")
+    st.write("◽ 2017.08 ~ 2017.09 | FnPricing - 인사시스템 | :blue[JSP, JAVA, Oracle]")
     st.write("◽ 2015.07 ~ 2015.08 | S oil - PRM (파트너쉽관리시스템) | :blue[Xplatform]")
     st.write("◽ 2015.02 ~ 2015.05 | SK Telecom - 빌링시스템 (부가서비스 요금청구) | :blue[Pro*C]")
     st.write("◽ 2014.05 ~ 2014.09 | 한국스마트카드 - 통합단말,모바일 시외버스 발권시스템 | :blue[Pro*C]")
