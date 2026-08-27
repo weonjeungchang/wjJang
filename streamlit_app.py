@@ -165,9 +165,9 @@ with tabPage04:
     st.write("◽ 에프앤자산평가 솔루션본부 :red[개발팀장] 차장")
 
     st.error("📌 학력 사항")
-    col_img, col_txt = st.columns([1, 3])
+    col_img, col_txt = st.columns([1, 5])
     with col_img:
-        st.image("imgs/gkrfurtkgkd.png")
+        st.image("imgs/gkrfurtkgkd.png", width=120)
     with col_txt:
         st.write("◽ 서강대학교 경제대학원 인공지능경제. 2025.02. 졸업")
         # st.caption(" 📜 논문 : :rainbow[퇴직연금 사전지정운용제도(디폴트옵션) 활용 활성화를 위한 챗봇(chatbot) 개발에 필요한 기술 적용방안 연구]")
