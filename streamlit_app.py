@@ -10,9 +10,9 @@ tabPage01, tabPage02, tabPage03, tabPage04, tabPage05 = st.tabs(["인공지능",
 
 with tabPage01:
     st.success("📌 NiceInvesting : 공시 데이터 추출 :orange[진행중]")
-    contents_text = """KIND 공시 데이터를 자동 수집하고, LLM으로 구조화 데이터 추출
-    비정형 공시 본문에서 구조화 JSON을 추출하기 위해 Multi-LLM 전략 운용
-    :red[QWEN은 비용 효율, GPT는 정밀도 보완]"""
+    contents_text = """KIND 공시 데이터를 자동 수집하고, LLM으로 구조화 데이터 추출.
+    비정형 공시 본문에서 구조화 JSON을 추출하기 위해 Multi-LLM 전략 운용.
+    :red[Qwen은 비용 효율, GPT는 정밀도 보완]"""
     st.markdown(contents_text)
     
     st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇")
