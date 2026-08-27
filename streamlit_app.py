@@ -203,7 +203,6 @@ with tabPage05:
     st.warning("📌 주식 추천 시스템")
 
 with tabPage06:
-    st.success("📌 이력서")
     pdf_path = "pdf/장원증_프로필_v.09.pdf"
     with open(pdf_path, "rb") as f:
         st.download_button("📥 PDF 다운로드", f, file_name="장원증_프로필.pdf", mime="application/pdf")
