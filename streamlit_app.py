@@ -208,7 +208,14 @@ with tabPage06:
     with open(pdf_path, "rb") as f:
         st.download_button("📥 PDF 다운로드", f, file_name="장원증_프로필.pdf", mime="application/pdf")
     doc = fitz.open(pdf_path)
-    for page in doc:
-        pix = page.get_pixmap(dpi=150)
-        st.image(pix.tobytes("png"), use_container_width=True)
+    pages = list(doc)
+    for i in range(0, len(pages), 2):
+        col1, col2 = st.columns(2)
+        with col1:
+            pix = pages[i].get_pixmap(dpi=150)
+            st.image(pix.tobytes("png"), use_container_width=True)
+        with col2:
+            if i + 1 < len(pages):
+                pix = pages[i + 1].get_pixmap(dpi=150)
+                st.image(pix.tobytes("png"), use_container_width=True)
     doc.close()
