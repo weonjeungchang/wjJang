@@ -9,12 +9,18 @@ st.caption(":rainbow[ 📜 This page was developed with Python Streamlit.]")
 tabPage01, tabPage02, tabPage03, tabPage04, tabPage05 = st.tabs(["인공지능", "분석/설계/기획", "프로젝트(개발)", "학력/이력/자격", "개인프로젝트"])
 
 with tabPage01:
-    st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇 :orange[진행중]")
+    st.success("📌 NiceInvesting : 공시 데이터 추출 :orange[진행중]")
+    contents_text = """KIND 공시 데이터를 자동 수집하고, LLM으로 구조화 데이터 추출
+    비정형 공시 본문에서 구조화 JSON을 추출하기 위해 Multi-LLM 전략 운용
+    :red[QWEN은 비용 효율, GPT는 정밀도 보완]"""
+    st.markdown(contents_text)
+    
+    st.success("📌 FinancialDataSystem : 신탁계약 약관 챗봇")
     contents_text = """도매인 특화 답변 생성 연구 : PEFT(parameter efficient fine tuning)  
     :red[LoRA] vs :red[QLoRA] 구현/비교/분석"""
     st.markdown(contents_text)
 
-    st.success("📌 FinancialDataSystem : OCR기반 문서 데이터화 :orange[진행중]")
+    st.success("📌 FinancialDataSystem : OCR기반 문서 데이터화 :orange[신탁시스템에 탑재]")
     contents_text = """이미지 파일을 :red[OCR(tesseract)] 기법으로 문자화하여  
     검수(승인결재) 단계를 걸쳐 :red[ollama]를 이용하여 :red[Llama3.1:8B] 모델로 정재하여  
     특정 데이터를 선별하여 기존 데이터베이스(Oracle)에 insert하는 로직  
@@ -150,7 +156,7 @@ with tabPage03:
 
 with tabPage04:
     st.error("📌 근무 이력")
-    st.write("◽ 現 NICE인베스팅 IT본부 :red[팀장]")
+    st.write("◽ 現 NICE인베스팅 IT운영실/INDEX개발실 :red[팀장]")
     st.write("◽ 現 :blue[이그지표데브랩] CEO")
     st.write("◽ 파이넨셜데이터시스템 커스터디부문 SI사업부 수석 (:red[인공지능] 담당)")
     # st.write("◽ 그린다에이아이:rainbow[startup] :red[CTO] 사외이사")
