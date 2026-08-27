@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 # Streamlit UI
 st.set_page_config(page_title="wjjang_career", layout="wide")
@@ -6,7 +7,7 @@ st.subheader("📄 [장원증] 소프트웨어 학사, 경제학(인공지능경
 st.caption(":rainbow[ 📜 This page was developed with Python Streamlit.]")
 
 # 탭 생성
-tabPage01, tabPage02, tabPage03, tabPage04, tabPage05 = st.tabs(["인공지능", "분석/설계/기획", "프로젝트(개발)", "학력/이력/자격", "개인프로젝트"])
+tabPage01, tabPage02, tabPage03, tabPage04, tabPage05, tabPage06 = st.tabs(["인공지능", "분석/설계/기획", "프로젝트(개발)", "학력/이력/자격", "개인프로젝트", "이력서"])
 
 with tabPage01:
     st.success("📌 NiceInvesting : 공시 데이터 추출 :orange[진행중]")
@@ -200,3 +201,11 @@ with tabPage05:
     st.warning("📌 주식 종목 분석 screening")
 
     st.warning("📌 주식 추천 시스템")
+
+with tabPage06:
+    st.success("📌 이력서")
+    pdf_path = "pdf/장원증_프로필_v.09.pdf"
+    with open(pdf_path, "rb") as f:
+        pdf_data = base64.b64encode(f.read()).decode("utf-8")
+    pdf_display = f'<iframe src="data:application/pdf;base64,{pdf_data}" width="100%" height="1000" type="application/pdf"></iframe>'
+    st.markdown(pdf_display, unsafe_allow_html=True)
