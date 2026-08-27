@@ -1,5 +1,5 @@
 import streamlit as st
-import base64
+import fitz
 
 # Streamlit UI
 st.set_page_config(page_title="wjjang_career", layout="wide")
@@ -206,6 +206,9 @@ with tabPage06:
     st.success("📌 이력서")
     pdf_path = "pdf/장원증_프로필_v.09.pdf"
     with open(pdf_path, "rb") as f:
-        pdf_data = base64.b64encode(f.read()).decode("utf-8")
-    pdf_display = f'<iframe src="data:application/pdf;base64,{pdf_data}" width="100%" height="1000" type="application/pdf"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+        st.download_button("📥 PDF 다운로드", f, file_name="장원증_프로필.pdf", mime="application/pdf")
+    doc = fitz.open(pdf_path)
+    for page in doc:
+        pix = page.get_pixmap(dpi=150)
+        st.image(pix.tobytes("png"), use_container_width=True)
+    doc.close()
